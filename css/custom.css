@@ -1,0 +1,40 @@
+.container-fluid{
+    position: relative;
+    height: 100%;
+}
+
+.row1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.row3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.row5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.text-block {
+    position: relative;
+    background-color: rgba(255,255,255,.5);
+    bottom: 50%;
+    right: 0%;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out .2s;
+    -moz-transition: all 1s ease-in-out .2s;
+    -ms-transition: all 1s ease-in-out .2s;
+    -o-transition: all 1s ease-in-out .2s;
+    transition: all 1s ease-in-out .2s;
+  }
+
+.text-block:hover{
+    bottom: 20%;
+}
